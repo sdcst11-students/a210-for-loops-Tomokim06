@@ -41,7 +41,7 @@ q4 = "enter total purchases for month 2: "
 a4 = float(input(q4))
 
 Interest2 = Interest + (ClosingBalance * 0.02)
-ClosingBalance2 = round((a3-a4) + Interest2 + (a1-a2), 2)
+ClosingBalance2 = round((a3-a4) + Interest2 + (a1-a2+0.5), 2)
 
 print (f"2% interest has been charged: ${Interest2}")
 print (f"Your closing balance for month 2 is ${ClosingBalance2}")

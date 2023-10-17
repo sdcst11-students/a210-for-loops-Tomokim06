@@ -22,3 +22,13 @@ enter a number:4
 ****
 
 """
+q = "Enter a width/height for a box between 1 and 10: "
+
+stars = int(input(q))
+if stars <= 10:
+    for i in range(stars):
+        for i in range(stars):
+            print('*', end=' ')
+        print()
+else:
+    print("Your number was too high")
